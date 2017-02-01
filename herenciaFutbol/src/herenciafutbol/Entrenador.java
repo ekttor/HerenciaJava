@@ -23,11 +23,18 @@ public class Entrenador extends SeleccionFutbol
                 
 	}
 
-	// getter y setter
-
-	public void dirigirPartido() {
+	public String getIdFederacion() {
+        return idFederacion;
 		
 	}
+
+    // getter y setter
+    public void setIdFederacion(String idFederacion) {
+        this.idFederacion = idFederacion;
+    }
+
+    public void dirigirPartido() {
+    }
 
 	public void dirigirEntreno() {
 		

@@ -21,6 +21,22 @@ public class Masajista extends SeleccionFutbol
                 this.aniosExperiencia = aniosExperiencia;
 	}
 
+    public String getTitulacion() {
+        return Titulacion;
+    }
+
+    public void setTitulacion(String Titulacion) {
+        this.Titulacion = Titulacion;
+    }
+
+    public int getAniosExperiencia() {
+        return aniosExperiencia;
+    }
+
+    public void setAniosExperiencia(int aniosExperiencia) {
+        this.aniosExperiencia = aniosExperiencia;
+    }
+
 	// getter y setter
 
 	public void darMasaje() {
